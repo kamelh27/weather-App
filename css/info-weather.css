@@ -1,0 +1,36 @@
+.infoDayWeather {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.temperatureDay-max-min {
+  display: flex;
+  justify-content: space-around;
+}
+
+.temperatureDay-max,.temperatureDay-min,  .weather-wind, .weather-humidity{
+  margin: 0;
+}
+
+
+.day-max, .day-min, .wind , .humidity{
+  color: var(--white);
+  font: var(--body1-regular);
+  padding-right: .5rem;
+}
+
+.day-degree, .wind-kilometres, .humidity-porcentage {
+  color: var(--white);
+  font: var(--body1-bold);
+}
+
+.weather-humidity-wind {
+  display: flex;
+  justify-content: space-around;
+}
+
+.infoDayWeather.is-hidden {
+  display: none;
+}
+
